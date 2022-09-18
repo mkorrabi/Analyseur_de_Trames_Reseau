@@ -1,0 +1,49 @@
+__________________________________________Ethernet_________________________________________
+Destination Mac Adress: a4:b1:c1:10:e1:4f
+Source Mac Adress: 00:37:b7:50:7e:d4
+Type: IPv4 0x0800
+__________________________________________IP_____________________________________________
+Version: 4
+Header Length: 20bytes 
+Total length: 88
+Identification: 0xd1b9
+Flag: 0x40
+premier bit reserve a 0 
+DF=1 fragmentation non autorise
+MF=1 il y a un fragment suivant le fragment courant
+Time To Live: 59
+Protocole: 11 UDP (17)
+Checksum: 0x5426
+Source Adress: 89.2.0.1
+Destination Adress: 192.168.0.10
+__________________________________________UDP_____________________________________________
+Source Port: 53
+Destination Port: 49511
+Length: 68
+Checksum: 0xe0bd
+__________________________________________DNS_____________________________________________
+Transaction Id: 0x563c
+Flag: 0x8180
+     Qr 1
+     Opcode 0000
+     Aa 0
+     Tc 0
+     Rd 1
+     Ra 1
+     Z 0
+     Rcode 0000
+Questions : 1
+Answer RRs : 1
+Authority : 0
+Aditional : 0
+Query: 
+    Name:encrypted-tbn0gstaticcom
+    Type:0000
+    Class:0100
+Answers: 
+    Name:encrypted-tbn0gstaticcom
+    Type:0001
+    Class:0001
+    TTL:163
+    Data Length:4
+    Adress:216.58.201.238
